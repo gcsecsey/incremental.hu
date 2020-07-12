@@ -1,0 +1,43 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  background: #bdc3c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #ededed,
+    #bdc3c7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ededed,
+    #bdc3c7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.App {
+  font-family: "Share Tech Mono", -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+  color: #243b55;
+  text-align: center;
+  margin: 0 auto;
+}
+
+a,
+p {
+  font-size: 1.5em;
+}
+a,
+a:visited,
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 3em;
+}
