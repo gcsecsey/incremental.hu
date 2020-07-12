@@ -17,8 +17,12 @@ export default function App() {
       </a>
 
       <div>
-        <SVGIcon name="facebook" />
-        <SVGIcon name="linkedin" />
+        <a href="https://www.facebook.com/incremental.hu/">
+          <SVGIcon style={{ marginRight: ".5em" }} name="facebook" />
+        </a>
+        <a href="https://www.linkedin.com/company/incremental-consulting">
+          <SVGIcon name="linkedin" />
+        </a>
       </div>
     </div>
   );
