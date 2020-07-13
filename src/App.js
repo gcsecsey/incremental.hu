@@ -12,7 +12,7 @@ export default function App() {
       <h1>Incremental Consulting</h1>
 
       <a href="mailto:hello@incremental.hu">
-        <SVGIcon name="message" style={{ marginRight: ".25em" }} />
+        
         <h2 style={{ display: "inline-block" }}>hello@incremental.hu</h2>
       </a>
 
