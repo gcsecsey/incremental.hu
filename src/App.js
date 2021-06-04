@@ -12,16 +12,18 @@ export default function App() {
       <h1>Incremental Consulting</h1>
 
       <a href="mailto:hello@incremental.hu">
-        
         <h2 style={{ display: "inline-block" }}>hello@incremental.hu</h2>
       </a>
 
       <div>
         <a href="https://www.facebook.com/incremental.hu/">
-          <SVGIcon style={{ marginRight: ".5em" }} name="facebook" />
+          <SVGIcon style={{ padding: ".5em" }} name="facebook" />
+        </a>
+        <a href="https://github.com/Incremental-Consulting">
+          <SVGIcon style={{ padding: ".5em" }} name="github" />
         </a>
         <a href="https://www.linkedin.com/company/incremental-consulting">
-          <SVGIcon name="linkedin" />
+          <SVGIcon style={{ padding: ".5em" }} name="linkedin" />
         </a>
       </div>
     </div>
